@@ -10,7 +10,7 @@
 
     "content_scripts": [{
         "matches": [
-            "<all_urls>"
+            "https://codewithmosh.com/courses/*/lectures/*"
         ],
 
         "js": [
