@@ -20,8 +20,6 @@
 > - [x] Build a Real-world App with ASP.NET Core 1.0+ and Angular 2+
 > - [x] Clean Coding and Refactoring
 
-@author : [ANSHUL GARG](https://github.com/garganshul108)
-
 ### :pushpin: Aim
 > - Help those who want to avoid themselves from 'clicks-and-saves' 
 > - To share a mixed-cum-messed-up learning experience (Python, JS, Shell Script etc) 
