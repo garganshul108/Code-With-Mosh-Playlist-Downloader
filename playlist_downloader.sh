@@ -1,3 +1,4 @@
+#!/bin/bash
 
 #provide title URL from title-page.urls for the playlist content URL scraping
 echo "scraping title page from $1"

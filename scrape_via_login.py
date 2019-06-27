@@ -16,7 +16,6 @@ def main():
     tree = html.fromstring(result.text)
     authenticity_token = list(set(tree.xpath("//meta[@name='csrf-token']/@content")))[0]
     authenticity_param = list(set(tree.xpath("//meta[@name='csrf-param']/@content")))[0]
-    # print(authenticity_token)
 
     # Create payload
     payload = {
@@ -31,10 +30,7 @@ def main():
 
     # Scrape url
     result = session_requests.get(URL, headers = dict(referer = URL))
-    # tree = html.fromstring(result.content)
-    # bucket_names = tree.xpath("//div[@class='repo-list--repo']/a/text()")
     print(result.content)
-    # print(tree)
 
 if __name__ == '__main__':
     main()
