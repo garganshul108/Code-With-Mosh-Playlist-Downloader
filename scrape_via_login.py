@@ -2,8 +2,8 @@ import sys
 import requests
 from lxml import html
 
-USERNAME = "sci.agarg@gmail.com"
-PASSWORD = "asdfghjkl11111"
+USERNAME = "<ENTER YOUR EMAIL>"
+PASSWORD = "<ENTER YOUR PASSWORD>"
 
 LOGIN_URL = "https://sso.teachable.com/secure/146684/users/sign_in?clean_login=true&reset_purchase_session=1"
 URL = sys.argv[1]
