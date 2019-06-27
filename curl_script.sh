@@ -1,6 +1,6 @@
 #!/bin/bash
 let count=0
-code=""
+
 while IFS= read -r line; do
     # echo $count
     if (( $count % 2 == 0 ))
@@ -21,12 +21,11 @@ while IFS= read -r line; do
         -H 'Range: bytes=0-' \
         --compressed \
         --output $v2
+
         # curl $v1 --output $v2
     fi
 
     ((count++))
 done < "$1"
 
-echo $code
-# echo 'Hello'$code
-# echo $var
+# echo $code
