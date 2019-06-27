@@ -5,7 +5,7 @@ USERNAME = "sci.agarg@gmail.com"
 PASSWORD = "asdfghjkl11111"
 
 LOGIN_URL = "https://sso.teachable.com/secure/146684/users/sign_in?clean_login=true&reset_purchase_session=1"
-URL = "https://codewithmosh.com/courses/the-complete-node-js-course/lectures/4509036"
+URL = ""
 
 def main():
     session_requests = requests.session()
