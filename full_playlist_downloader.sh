@@ -1,3 +1,4 @@
+#!/bin/bash
 let count=0
 code=""
 while IFS= read -r line; do

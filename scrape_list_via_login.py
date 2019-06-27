@@ -9,7 +9,7 @@ PASSWORD = "asdfghjkl11111"
 LOGIN_URL = "https://sso.teachable.com/secure/146684/users/sign_in?clean_login=true&reset_purchase_session=1"
 
 f = open("contents.url", "r")
-# print(f.readline())
+
 def main():
     session_requests = requests.session()
 
@@ -18,7 +18,6 @@ def main():
     tree = html.fromstring(result.text)
     authenticity_token = list(set(tree.xpath("//meta[@name='csrf-token']/@content")))[0]
     authenticity_param = list(set(tree.xpath("//meta[@name='csrf-param']/@content")))[0]
-    # print(authenticity_token)
 
     # Create payload
     payload = {
@@ -48,7 +47,7 @@ def main():
 
         c+=1
         inp = f.readline()
-    # print(tree)
+    
 
 if __name__ == '__main__':
     main()
