@@ -36,7 +36,7 @@ for match in soup.find_all('a', class_='item'):
     
     minsoup = BeautifulSoup(source, 'lxml')
     print(minsoup.title.text)
-    print(minsoup)
+    print(minsoupd)
     # hhref = minsoup.find('div', class_='lecture-attachment')
 
     # hhref = minsoup.find('div', class_='video-options')
