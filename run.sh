@@ -1,25 +1,27 @@
+<<<<<<< HEAD
 #!/bash/sh
 ##safe
 #provide title URL for the playlist content URL scraping
+=======
+#provide title URL from title-page.urls for the playlist content URL scraping
+echo "scraping title page from $1"
+>>>>>>> python-script
 python scrape_via_login.py $1 > title.html
+echo "scraped into title.html"
 
 #local scraping of title.html to get all the content page urls
+echo "local scraping of contents"
 python scrape_content_urls.py title.html > contents.url
+echo "END" >> contents.url
+echo "contents scraped" 
 
+echo "removing unneccesary title.html"
 rm title.html
+output=$2
+output=$(echo -e "$output" | tr -d '[:space:]')
+output="$output.txt"
+echo $output
+python scrape_via_login_list.py > $output
 
-#for each content url in contents.url
-    #print name of the video to videolinks.txt
-    echo {name line} >> videolinks.txt
+rm contents.url
 
-    #login scrape 
-    python scrape_via_login.py {content.url.line} > content.html
-
-    #local scrape download link
-    python scrape_download_link.py content.html >> videolinks.txt
-
-    #cleaning
-    rm content.html
-
-
-#videolinks is passed into the curl script
