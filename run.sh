@@ -1,6 +1,6 @@
 #!/bash/sh
 
-#provide title URL for the playlist content URL scraping
+#provide title URL from title-page.urls for the playlist content URL scraping
 python scrape_via_login.py $1 > title.html
 
 #local scraping of title.html to get all the content page urls
@@ -21,5 +21,6 @@ rm title.html
     #cleaning
     rm content.html
 
-
+chmod 755 ./curl_script.sh
 #videolinks is passed into the curl script
+./curl_script.sh ./videolinks.txt
