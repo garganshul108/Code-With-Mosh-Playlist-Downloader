@@ -1,3 +1,4 @@
+import sys
 import requests
 from lxml import html
 
@@ -5,7 +6,7 @@ USERNAME = "sci.agarg@gmail.com"
 PASSWORD = "asdfghjkl11111"
 
 LOGIN_URL = "https://sso.teachable.com/secure/146684/users/sign_in?clean_login=true&reset_purchase_session=1"
-URL = ""
+URL = sys.argv[1]
 
 def main():
     session_requests = requests.session()
