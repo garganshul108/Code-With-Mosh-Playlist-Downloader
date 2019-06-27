@@ -1,5 +1,5 @@
 #!/bash/sh
-
+##safe
 #provide title URL for the playlist content URL scraping
 python scrape_via_login.py $1 > title.html
 
