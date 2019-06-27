@@ -1,13 +1,15 @@
 import sys
 import requests
 from lxml import html
+from bs4 import BeautifulSoup
 
 USERNAME = "sci.agarg@gmail.com"
 PASSWORD = "asdfghjkl11111"
 
 LOGIN_URL = "https://sso.teachable.com/secure/146684/users/sign_in?clean_login=true&reset_purchase_session=1"
-URL = sys.argv[1]
 
+f = open("contents.url", "r")
+# print(f.readline())
 def main():
     session_requests = requests.session()
 
@@ -30,10 +32,22 @@ def main():
     result = session_requests.post(LOGIN_URL, data = payload, headers = dict(referer = LOGIN_URL))
 
     # Scrape url
-    result = session_requests.get(URL, headers = dict(referer = URL))
-    # tree = html.fromstring(result.content)
-    # bucket_names = tree.xpath("//div[@class='repo-list--repo']/a/text()")
-    print(result.content)
+    c = 0
+    inp = f.readline()
+    while(inp is not "END"):
+        if(c%2 == 0):
+            print(inp.split('\n')[0])
+        else:
+            URL = inp.split('\n')[0]
+            result = session_requests.get(URL, headers = dict(referer = URL))
+            soup = BeautifulSoup(result.content, 'lxml')
+            link = soup.find_all('a', class_='download')
+            if(len(link) >= 1):
+                href = link[0]['href']
+                print(href)
+
+        c+=1
+        inp = f.readline()
     # print(tree)
 
 if __name__ == '__main__':
