@@ -2,7 +2,7 @@
 > Bash/Python Script: A script to download full course from [codewithmosh.com](https://codewithmosh.com) <br />
 > Topics Available: <br />
 
-| Topics | Topics | Topics |
+| 1 | 2 | 3 |
 | ----- | ----- | ----- |
 | ReactJS | NodeJS | AngularJS: Beginner to Pro |
 | Redux in Angular | Angular4 Crash | JS: Basics |
