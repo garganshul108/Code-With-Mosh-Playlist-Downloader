@@ -4,12 +4,12 @@
 
 | Topics | Topics | Topics |
 | ----- | ----- | ----- |
-| ReactJS | NodeJS | AngularJS :Beginner to Pro |
+| ReactJS | NodeJS | AngularJS: Beginner to Pro |
 | Redux in Angular | Angular4 Crash | JS: Basics |
 | JS: OOPS | Complete Python | Python Developers |
 | SQL | C# Basics | C# Intermediate |
-| C# Advanced | C# Unit test | C# Xamarin Native Apps |
-| The Complete ASP.NET MVC 5 Course |  Build a Real-world App with ASP.NET Core 1.0+ and Angular 2+ | Clean Coding and Refactoring |
+| C# Advanced | C# Xamarin Native Apps | The Complete ASP.NET MVC 5 Course |
+| C# Unit test | Clean Coding and Refactoring | Build a Real-world App with ASP.NET Core 1.0+ and Angular 2+ |
 
 
 ### :pushpin: Aim
