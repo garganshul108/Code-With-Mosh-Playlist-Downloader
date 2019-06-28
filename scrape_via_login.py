@@ -19,7 +19,7 @@ def main():
 
     # Create payload
     payload = {
-        "user[school_id]": "146684",
+        "user[school_id]": "<YOUR STD ID>",
         "user[email]": USERNAME, 
         "user[password]": PASSWORD, 
         authenticity_param : authenticity_token
