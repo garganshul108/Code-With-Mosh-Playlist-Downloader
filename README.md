@@ -13,19 +13,19 @@
 
 
 ### :pushpin: Aim
-> - Help those who want to avoid themselves from 'clicks-and-saves' 
-> - To share a mixed-cum-messed-up learning experience (Python, JS, Shell Script etc) 
-> - Would try include a flow graph of events and Progress
+ - Help those who want to avoid themselves from 'clicks-and-saves' 
+ - To share a mixed-cum-messed-up learning experience (Python, JS, Shell Script etc) 
+ - Would try include a flow graph of events and Progress
 
 
-#### :v: Missions Accomplised:
-> - Include as many Tutorials as possible
-> - Implemented using Scraping Module in Python and Bash Scripts
+### :v: Missions Accomplised:
+ - Include as many Tutorials as possible
+ - Implemented using Scraping Module in Python and Bash Scripts
 
 
-## :eyeglasses: Download Options
-> - [x] Download Playlist for a specific topic
-> - [x] Download all Playlists at once (only mentioned Topics)
+### :eyeglasses: Download Options
+ - [x] Download Playlist for a specific topic
+ - [x] Download all Playlists at once (only mentioned Topics)
 
 ## :cloud: Installation
 > Updated soon
