@@ -1,24 +1,16 @@
 # Code-With-Mosh-Playlist-Downloader
 > Bash/Python Script: A script to download full course from [codewithmosh.com](https://codewithmosh.com) <br />
-> Topics Available:
-> - [x] ReactJS
-> - [x] NodeJS
-> - [x] AngularJS :Beginner to Pro
-> - [x] Redux in Angular
-> - [x] Angular4 Crash
-> - [x] JS: Basics
-> - [x] JS: OOPS
-> - [x] Complete Python
-> - [x] Python Developers
-> - [x] SQL
-> - [x] C# Basics
-> - [x] C# Intermediate
-> - [x] C# Advanced
-> - [x] C# Unit test
-> - [x] C# Xamarin Native Apps
-> - [x] The Complete ASP.NET MVC 5 Course
-> - [x] Build a Real-world App with ASP.NET Core 1.0+ and Angular 2+
-> - [x] Clean Coding and Refactoring
+> Topics Available: <br />
+
+| Topics | Topics | Topics |
+| ----- | ----- | ----- |
+| ReactJS | NodeJS | AngularJS :Beginner to Pro |
+| Redux in Angular | Angular4 Crash | JS: Basics |
+| JS: OOPS | Complete Python | Python Developers |
+| SQL | C# Basics | C# Intermediate |
+| C# Advanced | C# Unit test | C# Xamarin Native Apps |
+| The Complete ASP.NET MVC 5 Course |  Build a Real-world App with ASP.NET Core 1.0+ and Angular 2+ | Clean Coding and Refactoring |
+
 
 ### :pushpin: Aim
 > - Help those who want to avoid themselves from 'clicks-and-saves' 
