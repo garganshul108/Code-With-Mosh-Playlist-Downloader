@@ -1,39 +1,33 @@
 # Code-With-Mosh-Playlist-Downloader
 > Bash/Python Script: A script to download full course from [codewithmosh.com](https://codewithmosh.com) <br />
-> Topics Available:
-> - [x] ReactJS
-> - [x] NodeJS
-> - [x] AngularJS :Beginner to Pro
-> - [x] Redux in Angular
-> - [x] Angular4 Crash
-> - [x] JS: Basics
-> - [x] JS: OOPS
-> - [x] Complete Python
-> - [x] Python Developers
-> - [x] SQL
-> - [x] C# Basics
-> - [x] C# Intermediate
-> - [x] C# Advanced
-> - [x] C# Unit test
-> - [x] C# Xamarin Native Apps
-> - [x] The Complete ASP.NET MVC 5 Course
-> - [x] Build a Real-world App with ASP.NET Core 1.0+ and Angular 2+
-> - [x] Clean Coding and Refactoring
+<br />
+
+### Topics Available:
+
+| 1 | 2 | 3 |
+| ----- | ----- | ----- |
+| ReactJS | NodeJS | AngularJS: Beginner to Pro |
+| Redux in Angular | Angular4 Crash | JS: Basics |
+| JS: OOPS | Complete Python | Python Developers |
+| SQL | C# Basics | C# Intermediate |
+| C# Advanced | C# Xamarin Native Apps | The Complete ASP.NET MVC 5 Course |
+| C# Unit test | Clean Coding and Refactoring | Build a Real-world App with ASP.NET Core 1.0+ and Angular 2+ |
+
 
 ### :pushpin: Aim
-> - Help those who want to avoid themselves from 'clicks-and-saves' 
-> - To share a mixed-cum-messed-up learning experience (Python, JS, Shell Script etc) 
-> - Would try include a flow graph of events and Progress
+ - Help those who want to avoid themselves from 'clicks-and-saves' 
+ - To share a mixed-cum-messed-up learning experience (Python, JS, Shell Script etc) 
+ - Would try include a flow graph of events and Progress
 
 
-#### :v: Missions Accomplised:
-> - Include as many Tutorials as possible
-> - Implemented using Scraping Module in Python and Bash Scripts
+### :v: Missions Accomplised:
+ - Include as many Tutorials as possible
+ - Implemented using Scraping Module in Python and Bash Scripts
 
 
-## :eyeglasses: Download Options
-> - [x] Download Playlist for a specific topic
-> - [x] Download all Playlists at once (only mentioned Topics)
+### :eyeglasses: Download Options
+ - [x] Download Playlist for a specific topic
+ - [x] Download all Playlists at once (only mentioned Topics)
 
 ## :cloud: Installation
 > Updated soon
