@@ -1,4 +1,6 @@
-# full_playlist_downloader.sh
+# About
+
+## full_playlist_downloader.sh
 
 - Script for downloading all the topics available in Topic_list.url
 
@@ -11,7 +13,7 @@ Files Involved:
 
 - playlist_downloadr.sh
 
-# playlist_downloader.sh
+## playlist_downloader.sh
 
 - Main Script for Selected Topic download
 - Scrapes the content from the topic
@@ -29,7 +31,7 @@ Files Involved:
 - scrape_content_url.py
 - scrape_list_via_login.py
 
-# curl_script.sh [INTERNAL FILE]
+## curl_script.sh [INTERNAL FILE]
 
 - Download script
 - Uses cURL for downloading the video
@@ -40,12 +42,12 @@ Files Involved:
     ./curl_script.sh <input_file>
 ```
 
-# scrape_content_urls.py [INTERNAL FILE]
+## scrape_content_urls.py [INTERNAL FILE]
 
 - Scrapes the URL for the videos
 - Uses Beautilful Soup4 for the python3 scraping module
 
-# scrape_via_login.py [INTERNAL FILE]
+## scrape_via_login.py [INTERNAL FILE]
 
 - Scrapes the single Resourse Download URL (CDN link)
 - Uses Login Payload Credentials
@@ -54,7 +56,7 @@ Files Involved:
   - PASSWORD
   - SCHOOLID
 
-# scrape_list_via_login.py [INTERNAL FILE]
+## scrape_list_via_login.py [INTERNAL FILE]
 
 - Scrapes the all Download URL (CDN link)
 - Uses Login Payload Credentials
@@ -63,6 +65,6 @@ Files Involved:
   - PASSWORD
   - SCHOOLID
 
-# Topic_list.url [VITAL, NON-RECOVERABEL]
+## Topic_list.url [VITAL, NON-RECOVERABEL]
 
 - Contains list of the Topics avaliable and their URLS
