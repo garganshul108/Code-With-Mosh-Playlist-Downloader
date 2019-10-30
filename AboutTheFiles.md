@@ -65,6 +65,6 @@ Files Involved:
   - PASSWORD
   - SCHOOLID
 
-## Topic_list.url [VITAL, NON-RECOVERABEL]
+## Topic_list.url [VITAL, NON-RECOVERABLE]
 
 - Contains list of the Topics avaliable and their URLS
