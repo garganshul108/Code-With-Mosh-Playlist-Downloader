@@ -36,8 +36,8 @@
 
 1. Clone the Repository
 2. Open the following files
-   - scrape_list_via_login.py
-   - scrape_via_login.py
+   - [scrape_list_via_login.py](https://github.com/garganshul108/Code-With-Mosh-Playlist-Downloader/blob/master/scrape_list_via_login.py)
+   - [scrape_via_login.py](https://github.com/garganshul108/Code-With-Mosh-Playlist-Downloader/blob/master/scrape_via_login.py)
 3. Change the login credentials
    - USERNAME (email)
    - PASSWORD
@@ -55,7 +55,7 @@
 #### Download a specific Playlist (say NodeJS)
 
 4. Open Topic_list.url
-5. Copy the URL of the desired topic (here NodeJS)
+5. Copy the URL of the desired topic (here NodeJS) from [Topic_list.url](https://github.com/garganshul108/Code-With-Mosh-Playlist-Downloader/blob/master/Topic_list.url)
 6. Run
 
 ```shell
@@ -64,10 +64,11 @@
 ```
 
 ##### NOTE: The ReactJS playlist consumes upto 17 GB of your total data
+##### Other modules can consume upto 35 GB (rough estimate) of your data
+##### Recommended to use over Wifi only
 
-#### Other modules can consume upto 35 GB (rough estimate) of your data
-
-#### Recommended to use over Wifi only
+## About
+> [AboutTheFiles.md](https://github.com/garganshul108/Code-With-Mosh-Playlist-Downloader/blob/master/AboutTheFiles.md) contains the details about the files used in this module.
 
 Thanks! :heart:
 
