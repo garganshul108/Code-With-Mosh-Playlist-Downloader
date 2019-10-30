@@ -67,7 +67,7 @@
 ##### Other modules can consume upto 35 GB (rough estimate) of your data
 ##### Recommended to use over Wifi only
 
-## About
+## :books: About
 > [AboutTheFiles.md](https://github.com/garganshul108/Code-With-Mosh-Playlist-Downloader/blob/master/AboutTheFiles.md) contains the details about the files used in this module.
 
 Thanks! :heart:
