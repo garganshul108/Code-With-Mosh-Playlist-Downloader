@@ -5,8 +5,9 @@ from bs4 import BeautifulSoup
 
 USERNAME = "<ENTER YOUR EMAIL>"
 PASSWORD = "<ENTER YOUR PASSWORD>"
+SCHOOL_ID = "<YOUR STD ID>"
 
-LOGIN_URL = "https://sso.teachable.com/secure/146684/users/sign_in?clean_login=true&reset_purchase_session=1"
+LOGIN_URL = "https://sso.teachable.com/secure/".SCHOOL_ID."/users/sign_in?clean_login=true&reset_purchase_session=1"
 
 f = open("contents.url", "r")
 
@@ -21,7 +22,7 @@ def main():
 
     # Create payload
     payload = {
-        "user[school_id]": "<YOUR STD ID>",
+        "user[school_id]": SCHOOL_ID,
         "user[email]": USERNAME, 
         "user[password]": PASSWORD, 
         authenticity_param : authenticity_token
