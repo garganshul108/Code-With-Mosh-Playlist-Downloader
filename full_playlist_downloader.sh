@@ -12,7 +12,7 @@ while IFS= read -r line; do
     then
         v1=$line
         echo $v1 $v2
-        ./run.sh $v1 $v2
+        ./playlist_downloader.sh $v1 $v2
     fi
 
     ((count++))
