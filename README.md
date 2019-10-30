@@ -1,7 +1,6 @@
 # Code-With-Mosh-Playlist-Downloader
 
 > Bash/Python Script: A script to download full course from [codewithmosh.com](https://codewithmosh.com) <br />
-> <br />
 
 ### Topics Available:
 
