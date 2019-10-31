@@ -41,9 +41,10 @@
    - USERNAME (email)
    - PASSWORD
    - SCHOOL_ID (A numerical value found in your URL as you login)
+     ```shell
      Sample URL: "https://sso.teachable.com/secure/121212/users/sign_in?clean_login=true&reset_purchase_session=1"
-     > here the 121212 represents your SCHOOL_ID
-
+     Here the 121212 represents your SCHOOL_ID
+      ```
 #### Download All Playlists Available
 
 4. Run
