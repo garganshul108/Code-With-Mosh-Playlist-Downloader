@@ -33,7 +33,7 @@ Files Involved:
 - scrape_content_url.py
 - scrape_list_via_login.py
 
-## curl_script.sh [INTERNAL FILE]
+## curl_script.sh
 
 - Download script
 - Uses cURL for downloading the video
