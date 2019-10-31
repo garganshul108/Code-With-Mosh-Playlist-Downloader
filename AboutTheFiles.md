@@ -1,6 +1,6 @@
 # ABOUT.md
 
-All the files are persent in ./core
+All the files are present in ./core
 
 ## full_playlist_downloader.sh
 
