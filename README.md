@@ -31,6 +31,23 @@
 
 ## :cloud: Installation
 
+#### Prerequisites
+- ##### Install Python (Python2, if not installed on the system by default, like Ubuntu 18.04)
+```shell
+   sudo apt update
+   sudo apt install python-pip
+   pip --version
+```
+
+- ##### Install Beautiful Soup4 (python scraping module)
+```shell
+   sudo pip install beautifulsoup4 
+```
+- ##### Install lxml HTML parser
+```shell
+   sudo pip install lxml
+```
+
 #### Basic Steps
 
 1. Clone the Repository and open ./core
