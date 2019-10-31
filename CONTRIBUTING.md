@@ -19,6 +19,7 @@ requested. :sparkles:
    However, if the issue is clear (e.g. a typo) and the fix is simple, you can
    continue and fix it.
 
+
 ## Fixing issues
  - Fork the project in your account and create a branch with your fix:
    `some-great-feature` or `some-issue-fix`.
@@ -37,7 +38,21 @@ requested. :sparkles:
       ]
    }
    ```
+## Commits
+- Adding commits at stages of work help in understanding the work flow better.
+- Try to make specific commits for the files, just don't add all to the stage at once and commit together.
+- Try to follow the following syntax for the commits
+```syntax
+Type: Message of the commit
+```
+- Type can be 'Bug-fix', 'Doc-edit', 'Fix', etc
+- Message should be a one-liner that describes the edit that has been done
 
+```example
+Doc-edit: added the contributing guildelines
+```
+
+- Make sure to capitalise the First letter of the Type and Message for the writing beauty
 ## Creating a pull request
 
  - Open a pull request, and reference the initial issue in the pull request
