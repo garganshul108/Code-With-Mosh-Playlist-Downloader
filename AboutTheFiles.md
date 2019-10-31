@@ -1,5 +1,7 @@
 # ABOUT.md
 
+All the files are persent in ./core
+
 ## full_playlist_downloader.sh
 
 - Script for downloading all the topics available in Topic_list.url
