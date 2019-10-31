@@ -33,7 +33,7 @@
 
 #### Basic Steps
 
-1. Clone the Repository
+1. Clone the Repository and open ./core
 2. Open the following files
    - [scrape_list_via_login.py](https://github.com/garganshul108/Code-With-Mosh-Playlist-Downloader/blob/master/scrape_list_via_login.py)
    - [scrape_via_login.py](https://github.com/garganshul108/Code-With-Mosh-Playlist-Downloader/blob/master/scrape_via_login.py)
@@ -41,6 +41,8 @@
    - USERNAME (email)
    - PASSWORD
    - SCHOOL_ID (A numerical value found in your URL as you login)
+     Sample URL: "https://sso.teachable.com/secure/121212/users/sign_in?clean_login=true&reset_purchase_session=1"
+     > here the 121212 represents your SCHOOL_ID
 
 #### Download All Playlists Available
 
@@ -63,10 +65,13 @@
 ```
 
 ##### NOTE: The ReactJS playlist consumes upto 17 GB of your total data
+
 ##### Other modules can consume upto 35 GB (rough estimate) of your data
+
 ##### Recommended to use over Wifi only
 
 ## :books: About
+
 > [AboutTheFiles.md](https://github.com/garganshul108/Code-With-Mosh-Playlist-Downloader/blob/master/AboutTheFiles.md) contains the details about the files used in this module.
 
 Thanks! :heart:
