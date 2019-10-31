@@ -62,14 +62,6 @@
      Sample URL: "https://sso.teachable.com/secure/121212/users/sign_in?clean_login=true&reset_purchase_session=1"
      Here the 121212 represents your SCHOOL_ID
       ```
-#### Download All Playlists Available
-
-4. Run
-
-```shell
-    chmod 777 ./full_playlist_downloader.sh
-    ./full_playlist_downloader.sh Topic_list.url
-```
 
 #### Download a specific Playlist (say NodeJS)
 
@@ -81,6 +73,33 @@
     chmod 777 ./playlist_downloader.sh
     playlist_downloaded.sh <topic_url>
 ```
+7. A new file named "<topic_name>.txt" will be generated
+8. Make a folder and copy the curl_script.sh and <topic_name>.txt to it
+9. Run
+```shell
+   chmod 777 ./curl_script.sh 
+   ./curl_script.sh <topic_name>.txt
+```
+10. This will start the download
+
+#### Download All Playlists Available
+
+4. Run
+
+```shell
+    chmod 777 ./full_playlist_downloader.sh
+    ./full_playlist_downloader.sh Topic_list.url
+```
+5. New files named "<topic_name>.txt" will be generated.
+   These files will have the content urls for download.
+   
+6. For each file, that you want the playlist to download, make a folder and copy the curl_script.sh and <topic_name>.txt to it
+7. Run
+```shell
+   chmod 777 ./curl_script.sh 
+   ./curl_script.sh <topic_name>.txt
+```
+8. This will start the download
 
 ##### NOTE: The ReactJS playlist consumes upto 17 GB of your total data
 
