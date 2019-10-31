@@ -6,7 +6,7 @@ USERNAME = "<ENTER YOUR EMAIL>"
 PASSWORD = "<ENTER YOUR PASSWORD>"
 SCHOOL_ID = "<YOUR STD ID>"
 
-LOGIN_URL = "https://sso.teachable.com/secure/".SCHOOL_ID."/users/sign_in?clean_login=true&reset_purchase_session=1"
+LOGIN_URL = "https://sso.teachable.com/secure/"+SCHOOL_ID+"/users/sign_in?clean_login=true&reset_purchase_session=1"
 URL = sys.argv[1]
 
 def main():
