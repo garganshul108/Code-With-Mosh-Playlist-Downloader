@@ -75,6 +75,10 @@
 
 > [AboutTheFiles.md](https://github.com/garganshul108/Code-With-Mosh-Playlist-Downloader/blob/master/AboutTheFiles.md) contains the details about the files used in this module.
 
+## :star2: Issues and Contributions
+- Want to contribute and be a part of this small project. Check the simples contributing guidelines [here](https://github.com/garganshul108/Code-With-Mosh-Playlist-Downloader/blob/master/CONTRIBUTING.md)
+- Contributions don't have to be very special. From 'simple typos' to 'serious bugs' all kinds of contributions are welcome! :smile:
+
 Thanks! :heart:
 
 ## :scroll: License
