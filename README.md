@@ -1,4 +1,5 @@
-# Code-With-Mosh-Playlist-Downloader (only with valid login credentials)
+# Code-With-Mosh-Playlist-Downloader
+### (only with valid login credentials)
 
 > Bash/Python Script: A script to download full course from [codewithmosh.com](https://codewithmosh.com), given one has the valid login credentials <br />
 
